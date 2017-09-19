@@ -46,7 +46,6 @@ def gradientDes(X, y, theta1=np.zeros(2,1), alpha=0.01, num_iters=3000):
     return(theta1, J_zero)
 
 #### Minimization of Cost ####
-
 theta1 , Cost_J = gradientDescent(X, y)
 print('theta1: ',theta1.ravel())
 
